@@ -1,4 +1,8 @@
 {
   "item.firereborn.inferium": "Инфериум",
-  "item.firereborn.raw_inferium": "Сырой Инфериум"
+  "item.firereborn.raw_inferium": "Сырой Инфериум",
+
+
+  "block.firereborn.inferium_block": "Блок Инфериума",
+  "block.firereborn.raw_inferium_block": "Блок сырого Инфериума"
 }

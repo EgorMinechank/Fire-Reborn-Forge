@@ -1,4 +1,8 @@
 {
   "item.firereborn.inferium": "Inferium",
-  "item.firereborn.raw_inferium": "Raw Inferium"
+  "item.firereborn.raw_inferium": "Raw Inferium",
+
+
+  "block.firereborn.inferium_block": "Inferium Block",
+  "block.firereborn.raw_inferium_block": "Raw Inferium Block"
 }

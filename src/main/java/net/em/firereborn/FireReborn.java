@@ -1,6 +1,7 @@
 package net.em.firereborn;
 
 import com.mojang.logging.LogUtils;
+import net.em.firereborn.block.ModBlocks;
 import net.em.firereborn.item.ModItems;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -31,6 +32,7 @@ public class FireReborn {
         MinecraftForge.EVENT_BUS.register(this);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
