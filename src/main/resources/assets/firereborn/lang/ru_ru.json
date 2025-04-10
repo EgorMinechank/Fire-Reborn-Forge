@@ -6,6 +6,9 @@
   "block.firereborn.inferium_block": "Блок Инфериума",
   "block.firereborn.raw_inferium_block": "Блок сырого Инфериума",
 
+  "block.firereborn.inferium_ore": "Инфериумная руда",
+  "block.firereborn.inferium_deepslate_ore": "Инфериумоносный глубинный сланец",
+
 
   "creativetab.firereborn.fire_reborn": "Fire Reborn"
 }

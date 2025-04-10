@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "firereborn:raw_inferium_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "firereborn:raw_inferium"
+  }
+}

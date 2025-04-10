@@ -6,6 +6,9 @@
   "block.firereborn.inferium_block": "Inferium Block",
   "block.firereborn.raw_inferium_block": "Raw Inferium Block",
 
+  "block.firereborn.inferium_ore": "Inferium Ore",
+  "block.firereborn.inferium_deepslate_ore": "Inferium Deepslate Ore",
+
 
   "creativetab.firereborn.fire_reborn": "Fire Reborn"
 }

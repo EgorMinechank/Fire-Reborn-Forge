@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "firereborn:inferium_ore",
+    "firereborn:inferium_block",
+    "firereborn:inferium_deepslate_ore",
+    "firereborn:raw_inferium_block"
+  ]
+}

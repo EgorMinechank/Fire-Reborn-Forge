@@ -2,9 +2,11 @@ package net.em.firereborn.block;
 
 import net.em.firereborn.FireReborn;
 import net.em.firereborn.item.ModItems;
+import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.DropExperienceBlock;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -23,7 +25,14 @@ public class ModBlocks {
                     .strength(5.0f, 6.0f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
     public static final RegistryObject<Block> RAW_INFERIUM_BLOCK = registerBlock("raw_inferium_block",
             () -> new Block(BlockBehaviour.Properties.of()
-                    .strength(5.0f, 6.0f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+                    .strength(5.0f, 6.0f).requiresCorrectToolForDrops()));
+
+    public static final RegistryObject<Block> INFERIUM_ORE = registerBlock("inferium_ore",
+            () -> new DropExperienceBlock(UniformInt.of(2, 4), BlockBehaviour.Properties.of()
+                    .strength(3.0f, 3.0f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+    public static final RegistryObject<Block> INFERIUM_DEEPSLATE_ORE = registerBlock("inferium_deepslate_ore",
+            () -> new DropExperienceBlock(UniformInt.of(2, 4), BlockBehaviour.Properties.of()
+                    .strength(4.5f, 3.0f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE)));
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {

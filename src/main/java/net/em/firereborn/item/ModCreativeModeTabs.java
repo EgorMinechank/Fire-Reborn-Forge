@@ -24,6 +24,9 @@ public class ModCreativeModeTabs {
 
                         output.accept(ModBlocks.INFERIUM_BLOCK.get());
                         output.accept(ModBlocks.RAW_INFERIUM_BLOCK.get());
+
+                        output.accept(ModBlocks.INFERIUM_ORE.get());
+                        output.accept(ModBlocks.INFERIUM_DEEPSLATE_ORE.get());
                     }) .build());
 
 
