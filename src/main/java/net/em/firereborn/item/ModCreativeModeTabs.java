@@ -21,6 +21,8 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.INFERIUM.get());
                         output.accept(ModItems.RAW_INFERIUM.get());
 
+                        output.accept(ModItems.BURNER.get());
+
 
                         output.accept(ModBlocks.INFERIUM_BLOCK.get());
                         output.accept(ModBlocks.RAW_INFERIUM_BLOCK.get());
